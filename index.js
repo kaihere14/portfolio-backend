@@ -12,7 +12,7 @@ app.use(express.json({ limit: "16kb" }));
 
 app.use(
   cors({
-    origin: "https://www.armandev.space",
+     origin: ["https://www.armandev.space", "https://armandev.space"],
   })
 );
 
