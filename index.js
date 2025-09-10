@@ -12,7 +12,7 @@ app.use(express.json({ limit: "16kb" }));
 
 app.use(
   cors({
-    origin: "portfolio-2-liard-gamma.vercel.app",
+    origin: "https://portfolio-2-liard-gamma.vercel.app",
   })
 );
 
